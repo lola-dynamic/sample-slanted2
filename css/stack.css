@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background: #E5E5E5;
+	font-family: 'Catamaran', sans-serif;
+	overflow: auto;
+}
+
+.wrapper{
+	max-width: 1440px;
+	width: 100%;
+	height: 2290px;
+	border: 0.5px solid #878E63;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1440px;
+	width: 100%;
+	height: 478px;
+	color: #ffffff;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+}
+
+.container h2{
+	margin-top: 100px;
+	width: 738px;
+	height: 134px;
+	font-size: 64px;
+	line-height: 67px;
+	font-style: black;
+}
+
+.container p{
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 39px;
+	font-style: medium;
+}
+
+header{
+	max-width: 1361px;
+	width: 100px;
+	height: 48px;
+	text-align: left;
+}
+
+nav{
+	width: 232px;
+	height: 17px;
+}
+
+ul{
+	list-style: none;
+	font-style: bold;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul{
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	float: left;
+	width: 232px;
+	height: 17px;
+}
+
+li{
+	display: inline-block;
+	
+}
+
+.linkBtn ul li{
+
+}
+
+.linkBtn{
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 23px;
+	width: 175px;
+	height: 45px;
+	float: right;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 25px; 
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+.text h2{
+	font-size: 64px;
+	line-height: 67px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.text h4{
+	font-size: 24px;
+	line-height: 39px;
+	text-align: center;
+	margin-top: 100px;
+}
+	
+form input{  
+	background: #ffffff;
+	border: 3px solid #F2994A;
+	text-align: inside;
+	width: 600px;
+	height: 80px;
+	border-radius: 40px;
+	position: absolute;
+	top: 500px;
+	left: 350px;
+}
+
+.text-entry{
+	max-width: 600px;
+	height: 80px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-style: medium;
+}
+
+.content{
+	background: #ffffff;
+}
+
+.context{
+	margin-top: 100px;
+	
+}
+.context h2{
+	text-align: center;
+	padding-left: 480px;
+	color: #C3C0C0;
+	letter-spacing: 20%;
+	font-size: 18px;
+	font-family: black;
+	line-height: 29px;
+	width: 180px;
+	height: 29px;
+
+}
+.context p{
+	text-align: center;
+	color: #000000;
+	width: 904px;
+	height: 180px;
+	line-height: 39px;
+	font-family: medium;
+	font-size: 24px;
+	padding-left: 100px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+img{
+	width: 100%;
+	
+}
+
+.section{
+	background: rgba(4, 4, 4, 0.5);
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	position: relative;
+}
+
+.imageCaption {
+	position: absolute;
+	text-align: left;
+	top: 20px;
+	padding-left: 10px;
+}
+
+.imageCaption #textRelaxed p{
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 42px;
+	font-style: bold;
+}
+.imageCaption #textJos p{
+	color: #D78E52;
+	font-size: 18px;
+	line-height: 30px;
+	font-style: bold;
+}
+
+.imageCaption #textCar p{
+	color: #D78E52;
+	font-size: 18px;
+	line-height: 30px;
+	font-style: bold;
+}
+
+.overlay {
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+}
+
+.button{
+	text-align: center;
+	background: #ffffff;
+	width: 100%;
+	height: 220px;
+	position: absolute;
+}
+
+#Btn{
+	text-align: center;
+	color: #ED7D78;
+	font-size: 10px;
+	width: 100px;
+	background-color: #ffffff;
+	border: 1px solid #ED7D78;
+	padding: 8px;
+	margin-top: 80px;
+	border-radius: 50px;
+}
+
+.image{ 
+	width: 100%;
+	
+}
+
+.text-footer{
+
+}
+
+section{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 510px;
+	width: 100%;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+	box-shadow: 0 25px 30px rgba(0,0,0,.5);
+	display: flex;
+	
+}
+
+.hangingOut{
+	width: 50%;
+	height: 100%;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+    box-sizing: border-box;
+    border-left: 100px solid #EB5757;
+	border-bottom:510px solid #fff;
+}
+
+.imageBox{
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	border-left: 600px solid #EB5757;
+	border-bottom: 510px solid transparent;
+	background-image: url("../images/Mosque.jpg");
+	background-position: -100px -150px;
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------- MEDIA!!!!------------*/
+@media screen and (max-width: 1440px){
+	body{
+		background: #E5E5E5;
+		font-family: 'Catamaran', sans-serif;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1440px){
+	header{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1440px){
+
+}

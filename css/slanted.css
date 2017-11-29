@@ -1,0 +1,46 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+section{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 100%;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+	box-shadow: 0 25px 30px rgba(0,0,0,.5);
+	display: flex;
+	
+}
+
+.hangingOut{
+	width: 50%;
+	height: 100%;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+    box-sizing: border-box;
+    border-left: 100px solid #EB5757;
+	border-bottom:510px solid #fff;
+}
+
+.imageBox{
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	border-left: 600px solid #EB5757;
+	border-bottom: 510px solid transparent;
+	background-image: url("../images/Mosque.jpg");
+	background-position: 100px 150px;	
+
+}

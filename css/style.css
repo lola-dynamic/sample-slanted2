@@ -1,0 +1,343 @@
+
+body{
+	background: #E5E5E5;
+	font-family: 'Catamaran', sans-serif;
+	min-width: 100%;
+	min-height: 100%;
+	background: #E5E5E5;
+	
+}
+
+ h3{
+ 	text-align: left;
+ 	background: #E5E5E5;
+	color: #878E63;
+	width: 100%;
+	
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto; 
+}
+
+#wrapper{
+	background: #ffffff;
+	margin: 0 auto;
+	max-width: 80%;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+header{
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 478px;
+}
+nav ul{
+	list-style: none;
+	text-align: left;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	float: left;
+	width: 232px;
+	height: 17px;
+	margin-left: 300px;
+	margin-top: 43px;	
+}
+
+#logo{
+	float: left;
+	width: 15%;
+}
+
+
+#header-text{
+	padding: 20px;
+}
+
+
+#linkBtn{
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 23px;
+	width: 160px;
+	height: 45px;
+	border: 0;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 25px; 
+}
+
+
+.container{
+	color: #ffffff;
+	background: #EB5757;
+    background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);
+	text-align: center;
+	width: 1440px;
+	height: 478px;
+}
+
+.container h2{
+	font-size: 64px;
+	line-height: 50px;
+}
+
+.container p{
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 39px;
+}
+
+form input{  
+	background: #ffffff;
+	border: 3px solid #F2994A;
+	text-align: inside;
+	width: 600px;
+	height: 80px;
+	border-radius: 40px;
+	position: absolute;
+	top: 500px;
+	left: 230px;
+}
+
+.text-entry{
+	max-width: 600px;
+	height: 80px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-style: medium;
+}
+
+
+.context{
+	background: #ffffff;
+	margin-top: 100px;
+	
+}
+.context h2{
+	padding-left: 480px;
+	color: #C3C0C0;
+	letter-spacing: 20%;
+	font-size: 18px;
+	font-family: black;
+	line-height: 29px;
+	width: 180px;
+	height: 29px;
+
+}
+.context p{
+	text-align: center;
+	color: #000000;
+	width: 904px;
+	height: 180px;
+	line-height: 39px;
+	font-family: medium;
+	font-size: 24px;
+	padding-left: 100px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.section{
+	background: rgba(4, 4, 4, 0.5);
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	position: relative;
+}
+
+.imageCaption {
+	position: absolute;
+	text-align: left;
+	top: 20px;
+	padding-left: 10px;
+}
+
+.imageCaption #textRelaxed h4{
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 42px;
+	font-style: bold;
+}
+
+.imageCaption #textRelaxed p{
+	color: #D78E52;
+	font-size: 18px;
+	line-height: 16px;
+	font-style: bold;
+}
+
+.imageCaption #textJos h4{
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 42px;
+	font-style: bold;
+}
+
+.imageCaption #textJos p{
+	color: #D78E52;
+	font-size: 18px;
+	line-height: 16px;
+	font-style: bold;
+}
+
+.imageCaption #textAbuja h4{
+	color: #ffffff;
+	font-size: 32px;
+	line-height: 40px;
+	font-style: bold;
+}
+
+.imageCaption #textAbuja p{
+	color: #D78E52;
+	font-size: 18px;
+	line-height: 16px;
+	font-style: bold;
+}
+
+
+.overlay {
+	background: rgba(0,0,0,0.7);
+}
+
+.button{
+	text-align: center;
+	background: #ffffff;
+	width: 100%;
+	height: 190px;
+	position: absolute;
+}
+
+#Btn{
+	color: #ed7d78;
+	font-size: 10px;
+	float: center;
+	width: 100px;
+	background-color: #ffffff;
+	border: 1px solid #ed7d78;
+	padding: 8px;
+	margin-top: 80px;
+	border-radius: 50px;
+}
+.image{ 
+	width: 100%;
+	height: 410px;	
+}
+
+section{
+	border: 2px solid black;
+	position: absolute;
+	top: 1000px;
+	left: 50%;	
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 100%;
+	background: #000000;
+    /*background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);*/
+	box-shadow: 0 25px 30px rgba(0,0,0,.5);
+	display: flex;
+	
+}
+
+.hangingOut{
+	width: 50%;
+	height: 100%;
+	background: red;
+    /*background: -webkit-linear-gradient(#EB5757, #D59152);
+    background: -o-linear-gradient(#EB5757, #D59152);
+    background: -moz-linear-gradient(#EB5757, #D59152);
+    background: linear-gradient(#EB5757, #D59152);*/
+    box-sizing: border-box;
+    /*border-left: 100px solid #EB5757;
+	border-bottom:510px solid #fff;*/
+}
+
+.imageBox{
+	width: calc(50% + 50px);
+	height: 100%;
+	box-sizing: border-box;
+	border-left: 600px solid red;
+	border-bottom: 510px solid transparent;
+	background: url("../images/Mosque.jpg");
+
+}
+
+.footer-text{
+	background: #ffffff;
+	width: 76%;
+	padding: 30px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#text2{
+	float: right;
+	
+}
+.clearfix{
+	clear: both;
+} 
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+li{
+	display: inline;
+}
+
+/*-------------- MEDIA!!!!------------*/
+@media only screen and (max-width: 320px){
+	form input{  
+	background: #ffffff;
+	border: 3px solid #F2994A;
+	text-align: inside;
+	min-width: 600px;
+	height: 20px;
+	border-radius: 40px;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+	nav{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	nav ul li {
+		margin-left: 0 auto;
+		width: 100%;
+		border-top: 1px solid #878E63;
+		border-top: 0px solid #878E63;
+		border-top: 1px solid #878E63;
+		border-top: 0px solid #878E63;
+	}
+}
